@@ -4,4 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+color-eyre = "0.6.3"
+merge-hashmap = "0.1.2"
+tokio = { version = "1.38.0", features = ["rt", "time", "macros", "rt-multi-thread"] }
 zbus = { version = "4.3.1", features = ["tokio"] }
+zbus_xml = "4.0.0"
